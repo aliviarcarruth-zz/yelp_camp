@@ -20,18 +20,72 @@
     width: 100%;
 }
 
-.jumbotron {
-    margin-bottom: 0px;
-    background-image: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80);
+/*.jumbotron {*/
+/*    margin-bottom: 0px;*/
+/*    background-image: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80);*/
+/*    background-position: center center;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    color: white;*/
+/*}*/
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+#intro {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1534379645235-aa659c6d3ab6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    z-index: 0;
+    max-width: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: block;
+   
     
+    
+   
+}
+
+#nav {
+   padding:0px;
+   margin:0px;
 }
 
 
-        
+#yelp-header {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-top: 40vh;
+}       
 
+#arrow {
+    font-size: 75px;
+    padding-top: 100px;
+}
 
+#label {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  
+}
+
+a:hover {
+    color: white;
+}
 	
