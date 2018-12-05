@@ -97,10 +97,14 @@ a:hover {
     padding-top: 30px;
 }
 
-#heart {
+#tent2 {
     font-size: 20px;
 }
 
 #tent {
     font-size: 20px;
+}
+
+#nav_tent{
+    font-size: 15px;
 }
