@@ -76,7 +76,11 @@ body {
 #label {
     padding-top: 30px;
     padding-left: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    position: relative;
+    background-color: #f2f1ed;
+    font-family: sans-serif;
 }
 
 a {
@@ -88,4 +92,15 @@ a {
 a:hover {
     color: white;
 }
-	
+
+#camps {
+    padding-top: 30px;
+}
+
+#heart {
+    font-size: 20px;
+}
+
+#tent {
+    font-size: 20px;
+}
